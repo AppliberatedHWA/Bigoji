@@ -1,3 +1,9 @@
+/**
+ * BigEmoji (https://github.com/AppliberatedHWA/bigemoji)
+ * Copyright (c) 2017 Appliberated (https://www.appliberated.com)
+ * Licensed under MIT (https://github.com/AppliberatedHWA/bigemoji/blob/master/LICENSE)
+ */
+
 /*global twemoji*/
 
 "use strict";
