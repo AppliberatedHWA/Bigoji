@@ -1,5 +1,5 @@
 {
-    "name": "bigemoji",
+    "name": "bigoji",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -10,20 +10,27 @@
     "author": "AppliberatedHWA",
     "license": "MIT",
     "eslintConfig": {
-        "parserOptions": {
-            "ecmaVersion": 6,
-            "sourceType": "module"
-        },        
         "env": {
             "browser": true,
             "es6": true
         },
-        "extends": "eslint:recommended",
+        "extends": "eslint:all",
         "rules": {
+            "arrow-parens": ["error", "as-needed"],
             "dot-location": "off",
-            "padded-blocks": "off",
+            "func-style": "off",
             "linebreak-style": ["error", "windows"],
-            "space-before-function-paren": "off" 
+            "max-len": ["error", 140],
+            "max-statements": ["error", 15],
+            "multiline-ternary": "off",
+            "no-magic-numbers": ["error", { "ignore": [0, 1, 2] }],
+            "no-ternary": "off",
+            "object-curly-spacing": "off",
+            "object-property-newline": "off",
+            "one-var": "off",
+            "padded-blocks": "off",
+            "quote-props": ["error", "consistent-as-needed"],
+            "space-before-function-paren": "off"
         }
     }
 }
